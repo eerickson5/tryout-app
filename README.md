@@ -1,6 +1,6 @@
-# React + Vite
+# React + Vite with Tailwind, DaisyUI, Routing, and Icons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working with the basics.
 
 Currently, two official plugins are available:
 
