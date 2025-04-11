@@ -10,6 +10,6 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["fantasy"],
+    themes: ["fantasy", "light", "bumblebee"],
   },
 };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from "../firebase";
 
-const SignIn = () => {
+const SignIn = ( {text}) => {
     const [error, setError] = useState("");
 
     const handleGoogleSignIn = async () => {
@@ -19,10 +19,10 @@ const SignIn = () => {
 
     return (
         <button
-            className="btn btn-primary w-full mt-4"
+            className="btn btn-primary mt-4"
             onClick={handleGoogleSignIn}
         >
-            Sign in with Google
+            {text}
         </button>
     );
 };

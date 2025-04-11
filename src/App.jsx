@@ -5,10 +5,6 @@ import SignInButton from './components/SignInButton';
 import React from 'react';
 
 function App() {
-
-  React.useEffect(() => {
-    document.documentElement.setAttribute("data-theme", "fantasy");
-  }, []);
   
   return (
     <Router>
