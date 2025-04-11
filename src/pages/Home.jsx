@@ -25,9 +25,9 @@ const Home = () => {
       </section>
 
       {/* Call to Action */}
-      <div className="mt-10 text-center">
-        <p className="text-lg">
-          Ready to get started? Sign up and post your tryout today!
+      <div className="mt-10 p-10 text-center card  bg-base-200">
+        <p className="text-xl font-medium text-neutral mb-5">
+        📢 Calling all captains 📢 <br/> Sign up and post your tryout today!
         </p>
         <SignIn text="Sign Up Now" />
       </div>
