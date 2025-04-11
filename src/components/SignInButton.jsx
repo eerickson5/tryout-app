@@ -10,7 +10,7 @@ const SignIn = () => {
         const provider = new GoogleAuthProvider();
         try {
             const result = await signInWithPopup(auth, provider);
-            const user = result.user;
+            const user = result.user; //save this to context
             alert(`Welcome, ${user.displayName}!`);
         } catch (err) {
             setError(err.message);
